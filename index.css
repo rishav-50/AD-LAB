@@ -58,7 +58,7 @@ section h3 {
 section p, section li {
     font-size: 1rem;
     line-height: 1.6;
-    text-align: justify; /* Apply justify alignment */
+    text-align: justify; 
 }
 
 /* Contact Links */
@@ -82,7 +82,7 @@ section p a:hover {
 
 /* About, Skills, and Other Sections */
 p, ul {
-    text-align: justify; /* Ensure justified alignment for all paragraphs and lists */
+    text-align: justify; 
     margin: 10px 0;
 }
 
