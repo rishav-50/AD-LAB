@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #b2b929;
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #97b929;
+    margin-left: 20px;
+}
+
+/* Section Styling */
+section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+section p, section li {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: justify; /* Apply justify alignment */
+}
+
+/* Contact Links */
+section p a {
+    text-decoration: none;
+    color: #7db929;
+    font-weight: bold;
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+section p a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+section p a:hover {
+    color: #1abc9c;
+}
+
+/* About, Skills, and Other Sections */
+p, ul {
+    text-align: justify; /* Ensure justified alignment for all paragraphs and lists */
+    margin: 10px 0;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    section {
+        width: 95%;
+    }
+}
